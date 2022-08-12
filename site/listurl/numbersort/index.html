@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <?php
-		session_start();
-		//create log files
-		$time=exec("date");
-		$ipout=$_SERVER['REMOTE_ADDR'];
-		if($_SESSION['ssid']==NULL){       
-			exec("echo '[".$time."] [".$ipout."] Visit /listurl/numbersort ' >>/home/webaccounts/userrequest/accepted/anonymous/log");
-		}else{
-			exec("echo '[".$time."] [".$ipout."] Visit /listurl/numbersort ' >>/home/webaccounts/userrequest/accepted/'".$_SESSION['ssid']."'/log");
-		}
-		//create log files//
-	?>
     <head>
         <meta charset="utf-8">
         <title>線上數字排序工具</title>
-        <script src="/module/mainstyleadjust.js"></script>
-        <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="/module/mainstyle.css"/>
+        <script src="/my-site/site/module/mainstyleadjust.js"></script>
+        <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="my-site/site/module/mainstyle.css"/>
     </head>
     <body>
         <div id="all">
@@ -66,14 +54,14 @@
             </div>
             
         </div>
-        <script src="/module/jquery.min.js"></script>
+        <script src="/my-site/site/module/jquery.min.js"></script>
         <script>
             $(function(){
                 /*公共部分
                  * 導航欄
                  * footer CopyRight
                  */
-                $(".bg").load("/module/bginfo/bg.php");
+                $(".bg").load("/my-site/site/module/bginfo/bg.php");
                 
             });
         </script>
