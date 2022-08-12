@@ -75,29 +75,6 @@ function clicktools(){
     }
     
 }
-//user area
-showusertmp1=0
-function showuser(){
-    if(showusertmp1==0){
-        closeall();
-        document.getElementById('userall').style.width='100%';
-        document.getElementById('userall').style.height='1080px';
-        document.getElementById('userall').style.zIndex='97';
-        document.getElementById('userlay1').style.display='block';
-        document.getElementById('userlay1').style.zIndex='98';
-        showusertmp1=1;
-        //var optall=document.getElementById('optall');
-        //optall.addEventListener('click',closeall);
-    }else if(showusertmp1==1){
-        document.getElementById('userall').style.width='60px';
-        document.getElementById('userall').style.height='60px';
-        document.getElementById('userall').style.zIndex='0';
-        document.getElementById('userlay1').style.display='none';
-        document.getElementById('userlay1').style.zIndex='0';
-        showusertmp1=0;
-        closeall();
-    }
-}
 
 var clickcontacttmp1=0;
 function clickcontact(){
@@ -133,11 +110,4 @@ function closeall(){
     document.getElementById('optlay1').style.display='none';
     document.getElementById('optlay1').style.zIndex='0';
     document.getElementById('toolslay1').style.display='none';
-    
-    document.getElementById('userall').style.width='60px';
-    document.getElementById('userall').style.height='60px';
-    document.getElementById('userall').style.zIndex='0';
-    document.getElementById('userlay1').style.display='none';
-    document.getElementById('userlay1').style.zIndex='0';
-    showusertmp1=0;
 }
