@@ -16,4 +16,5 @@ function generate(){
         outputu+=outputpre[a]+'\n';
     }
     document.getElementById("output").innerHTML=outputu;
+    
 }
