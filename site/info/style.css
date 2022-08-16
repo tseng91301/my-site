@@ -1,10 +1,4 @@
-
-#hello{
-    position: absolute;
-    width: 500px;
-    font-size: 50px;
-    left: 50%;
-    margin-left: -250px;
-    top: 350px;
-    text-align: center;
+#welcome span{
+    font-size: 40px;
+    
 }
