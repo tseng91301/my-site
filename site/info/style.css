@@ -1,4 +1,7 @@
+#welcome{
+    position: absolute;
+    
+}
 #welcome span{
     font-size: 40px;
-    
 }
