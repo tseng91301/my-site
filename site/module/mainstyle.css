@@ -22,4 +22,8 @@
 #pageinfo{
     position: absolute;
     top: 80px;
+	padding-left: 100px;
+    padding-right: 100px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
