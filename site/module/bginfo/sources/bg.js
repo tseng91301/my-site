@@ -45,7 +45,7 @@ function clickbutt(idname,linkto){
     }else{
         setTimeout(() => {
             document.getElementById(idname).style.backgroundColor=defcolor;
-        }, 300);
+        }, 200);
     }
 }
 var clickcontentstmp1=0;
