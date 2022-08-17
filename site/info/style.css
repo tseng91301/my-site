@@ -12,5 +12,7 @@
 }
 #serversta{
     position: absolute;
-    
+    top: 270px;
+    left: 51px;
+    font-size: 22px;
 }
